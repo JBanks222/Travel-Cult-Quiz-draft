@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Archetype Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 Travel Archetype Quiz</h1>
+            <p>Discover your unique travel personality through 12 carefully crafted questions</p>
+        </header>
+
+        <div id="quiz-container">
+            <div id="start-screen" class="screen active">
+                <h2>Ready to discover your travel archetype?</h2>
+                <p>This quiz will help you understand your travel style and preferences. Answer 12 questions to find out which archetype matches your wanderlust spirit!</p>
+                <button id="start-btn" class="btn primary">Start Quiz</button>
+            </div>
+
+            <div id="question-screen" class="screen">
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+                <div class="question-counter">
+                    <span id="current-question">1</span> of <span id="total-questions">12</span>
+                </div>
+                
+                <div class="question-content">
+                    <h2 id="question-text"></h2>
+                    <div id="options-container"></div>
+                </div>
+                
+                <div class="navigation">
+                    <button id="prev-btn" class="btn secondary" disabled>Previous</button>
+                    <button id="next-btn" class="btn primary" disabled>Next</button>
+                </div>
+            </div>
+
+            <div id="results-screen" class="screen">
+                <h2>Your Travel Archetype</h2>
+                <div id="results-content"></div>
+                <div class="action-buttons">
+                    <button id="retake-btn" class="btn secondary">Take Quiz Again</button>
+                    <button id="share-btn" class="btn primary">Share Results</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

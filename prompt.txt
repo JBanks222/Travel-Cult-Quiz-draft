@@ -1,0 +1,20 @@
+You are a Python developer.
+
+Write a Python function that takes in two inputs:
+1. A list of quiz questions in JSON format. Each question includes an ID, a question string, and a list of options. Each option includes a "text" and an "archetype".
+2. A list of user-selected answers, where each item includes the `question_id` and the `selected_option_text`.
+
+The function should:
+- Count how many times each archetype was selected based on the user's answers.
+- Return the primary archetype (the one with the most selections).
+- If there is a tie, return a list of the tied archetypes instead of just one.
+
+Bonus: include a dictionary of brief descriptions for each archetype and return the corresponding description(s) along with the name(s).
+
+Format the final result as:
+
+```python
+{
+    "result": ["Spiritual Nomad"],
+    "description": ["You travel to recharge, reconnect, and rediscover your inner self."]
+}
