@@ -3,21 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Archetype Quiz</title>
+    <title>Travel Personality Quiz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>🌍 Travel Archetype Quiz</h1>
-            <p>Discover your unique travel personality through 12 carefully crafted questions</p>
+            <h1>🌍 Travel Personality Quiz</h1>
+            <p>Discover your unique travel style through our collection of personality quizzes</p>
         </header>
 
         <div id="quiz-container">
-            <div id="start-screen" class="screen active">
-                <h2>Ready to discover your travel archetype?</h2>
-                <p>This quiz will help you understand your travel style and preferences. Answer 12 questions to find out which archetype matches your wanderlust spirit!</p>
+            <div id="quiz-selection-screen" class="screen active">
+                <h2>Choose Your Quiz</h2>
+                <p>Select the quiz that best fits what you want to discover about your travel personality:</p>
+                
+                <div class="quiz-options">
+                    <div class="quiz-option" data-quiz="quiz1">
+                        <div class="quiz-icon">🧠</div>
+                        <h3>What Kind of Traveler Are You?</h3>
+                        <p>Discover your unique travel personality through 5 carefully crafted questions</p>
+                        <div class="quiz-personalities">
+                            <span>🧭 The Planner Pro</span>
+                            <span>🔥 The Social Butterfly</span>
+                            <span>🌿 The Explorer</span>
+                            <span>💆 The Chiller</span>
+                        </div>
+                    </div>
+                    
+                    <div class="quiz-option" data-quiz="quiz2">
+                        <div class="quiz-icon">❤️</div>
+                        <h3>Who's Your Travel Soulmate?</h3>
+                        <p>Match members for roommate pairings, solo traveler invites, or couples trip compatibility</p>
+                        <div class="quiz-personalities">
+                            <span>💥 The Wildcard</span>
+                            <span>🪷 The Anchor</span>
+                            <span>🧲 The Spark</span>
+                            <span>🌍 The Connector</span>
+                        </div>
+                    </div>
+                    
+                    <div class="quiz-option" data-quiz="quiz3">
+                        <div class="quiz-icon">👥</div>
+                        <h3>Which Travel Group Is Your Vibe?</h3>
+                        <p>Use to guide trip sign-ups or recommend trip categories in emails. Great for post-quiz upsells.</p>
+                        <div class="quiz-personalities">
+                            <span>🌴 The Adventure Collective</span>
+                            <span>💃 The Vibe Seekers</span>
+                            <span>🍷 The Glow-Up Gang</span>
+                            <span>🧠 The Culture Crew</span>
+                            <span>🫶 The Real Ones</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="start-screen" class="screen">
+                <h2>Ready to discover your travel personality?</h2>
+                <p id="quiz-description">This quiz will help you understand your travel style and preferences.</p>
+                <div class="personality-preview">
+                    <h3>Your Travel Personality Will Reveal:</h3>
+                    <ul id="personality-list">
+                    </ul>
+                </div>
                 <button id="start-btn" class="btn primary">Start Quiz</button>
+                <button id="back-to-selection" class="btn secondary">Choose Different Quiz</button>
             </div>
 
             <div id="question-screen" class="screen">
@@ -25,7 +75,7 @@
                     <div id="progress-fill"></div>
                 </div>
                 <div class="question-counter">
-                    <span id="current-question">1</span> of <span id="total-questions">12</span>
+                    <span id="current-question">1</span> of <span id="total-questions">5</span>
                 </div>
                 
                 <div class="question-content">
@@ -40,10 +90,11 @@
             </div>
 
             <div id="results-screen" class="screen">
-                <h2>Your Travel Archetype</h2>
+                <h2>Your Travel Personality</h2>
                 <div id="results-content"></div>
                 <div class="action-buttons">
                     <button id="retake-btn" class="btn secondary">Take Quiz Again</button>
+                    <button id="new-quiz-btn" class="btn secondary">Try Another Quiz</button>
                     <button id="share-btn" class="btn primary">Share Results</button>
                 </div>
             </div>

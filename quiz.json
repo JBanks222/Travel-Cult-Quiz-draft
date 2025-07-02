@@ -1,139 +1,181 @@
 {
-    "archetypes": [
-      "Pathfinder",
-      "Connector",
-      "Time Traveler",
-      "Hedonist",
-      "Digital Drifter",
-      "Culture Hacker",
-      "Escape Artist",
-      "Luxe Nomad",
-      "Local Whisperer",
-      "Chaos Pilot",
-      "Spiritual Nomad",
-      "Builder"
-    ],
-    "questions": [
-      {
-        "id": 1,
-        "question": "What's your ideal first day in a new country?",
-        "options": [
-          { "text": "Wake up early, hike to a hidden spot", "archetype": "Pathfinder" },
-          { "text": "Find a street food vendor and chat with locals", "archetype": "Connector" },
-          { "text": "Take a guided tour through the old town and museums", "archetype": "Time Traveler" },
-          { "text": "Check into a luxury stay, order room service", "archetype": "Luxe Nomad" }
-        ]
-      },
-      {
-        "id": 2,
-        "question": "Which of these sounds most like your travel vibe?",
-        "options": [
-          { "text": "One-way ticket. No plan. Let's go.", "archetype": "Chaos Pilot" },
-          { "text": "I'm going to learn this language while I'm there", "archetype": "Culture Hacker" },
-          { "text": "I'm here to rest, reset, and journal", "archetype": "Spiritual Nomad" },
-          { "text": "I'll be working remote, but catching sunsets too", "archetype": "Digital Drifter" }
-        ]
-      },
-      {
-        "id": 3,
-        "question": "Pick a travel ritual:",
-        "options": [
-          { "text": "Always bring a camera for moments & ruins", "archetype": "Time Traveler" },
-          { "text": "Save every spot to Google Maps before landing", "archetype": "Local Whisperer" },
-          { "text": "Drop into a café and see who I meet", "archetype": "Connector" },
-          { "text": "Book a facial or massage the first night", "archetype": "Hedonist" }
-        ]
-      },
-      {
-        "id": 4,
-        "question": "What's your favorite type of trip?",
-        "options": [
-          { "text": "Volunteering or building something that lasts", "archetype": "Builder" },
-          { "text": "A guided group tour across Europe", "archetype": "Connector" },
-          { "text": "Living out of a backpack, country-hopping", "archetype": "Chaos Pilot" },
-          { "text": "A retreat where I can fully unplug", "archetype": "Spiritual Nomad" }
-        ]
-      },
-      {
-        "id": 5,
-        "question": "Choose a travel soundtrack:",
-        "options": [
-          { "text": "Soft jazz and a glass of wine", "archetype": "Hedonist" },
-          { "text": "Old-school reggae and backpacker vibes", "archetype": "Pathfinder" },
-          { "text": "Cinematic film scores", "archetype": "Time Traveler" },
-          { "text": "Lo-fi hip hop while coding in a hostel", "archetype": "Digital Drifter" }
-        ]
-      },
-      {
-        "id": 6,
-        "question": "What's in your suitcase?",
-        "options": [
-          { "text": "Crystals, essential oils, journal", "archetype": "Spiritual Nomad" },
-          { "text": "Camera, walking shoes, old maps", "archetype": "Time Traveler" },
-          { "text": "Power bank, laptop, multiple SIM cards", "archetype": "Digital Drifter" },
-          { "text": "Sketchbook and paint, work gloves", "archetype": "Builder" }
-        ]
-      },
-      {
-        "id": 7,
-        "question": "Which of these would you rather do on vacation?",
-        "options": [
-          { "text": "Plan a surprise for locals or fellow travelers", "archetype": "Local Whisperer" },
-          { "text": "Host a language exchange or join one", "archetype": "Culture Hacker" },
-          { "text": "Spend the day getting pampered at a spa", "archetype": "Hedonist" },
-          { "text": "Go completely off-grid for a while", "archetype": "Escape Artist" }
-        ]
-      },
-      {
-        "id": 8,
-        "question": "Pick a caption for your next travel photo:",
-        "options": [
-          { "text": "\"Got lost and found everything.\"", "archetype": "Chaos Pilot" },
-          { "text": "\"Booked this on points and vibes.\"", "archetype": "Digital Drifter" },
-          { "text": "\"Recharging in a place that heals.\"", "archetype": "Spiritual Nomad" },
-          { "text": "\"Woke up in a castle today. Casual.\"", "archetype": "Luxe Nomad" }
-        ]
-      },
-      {
-        "id": 9,
-        "question": "Your ideal travel group would be:",
-        "options": [
-          { "text": "Just me and my journal", "archetype": "Escape Artist" },
-          { "text": "A small group of curious strangers", "archetype": "Connector" },
-          { "text": "A co-working tribe of digital nomads", "archetype": "Digital Drifter" },
-          { "text": "A volunteering crew building something meaningful", "archetype": "Builder" }
-        ]
-      },
-      {
-        "id": 10,
-        "question": "You're most likely to post a story about:",
-        "options": [
-          { "text": "That hole-in-the-wall café no one knows", "archetype": "Local Whisperer" },
-          { "text": "An ancient ritual or cultural festival", "archetype": "Culture Hacker" },
-          { "text": "A luxury suite overlooking the ocean", "archetype": "Luxe Nomad" },
-          { "text": "A mountain sunrise after a tough climb", "archetype": "Pathfinder" }
-        ]
-      },
-      {
-        "id": 11,
-        "question": "You travel mostly to:",
-        "options": [
-          { "text": "Find your purpose or deepen your practice", "archetype": "Spiritual Nomad" },
-          { "text": "Chase adrenaline and motion", "archetype": "Chaos Pilot" },
-          { "text": "Live better, softer, and slower", "archetype": "Hedonist" },
-          { "text": "Connect, help, and contribute", "archetype": "Builder" }
-        ]
-      },
-      {
-        "id": 12,
-        "question": "If you had one free month, you'd:",
-        "options": [
-          { "text": "Wander alone through ancient cities", "archetype": "Time Traveler" },
-          { "text": "Disguise yourself and live like a local", "archetype": "Culture Hacker" },
-          { "text": "Work on a creative or community project abroad", "archetype": "Builder" },
-          { "text": "Go somewhere with no cell signal", "archetype": "Escape Artist" }
-        ]
-      }
-    ]
+  "quizzes": {
+    "quiz1": {
+      "title": "What Kind of Traveler Are You?",
+      "description": "Discover your unique travel personality through 5 carefully crafted questions",
+      "personalities": [
+        "The Planner Pro",
+        "The Social Butterfly", 
+        "The Explorer",
+        "The Chiller"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you usually plan your trip?",
+          "options": [
+            { "text": "I make a whole spreadsheet with tabs.", "personality": "The Planner Pro" },
+            { "text": "I save ideas and see where the wind takes me.", "personality": "The Explorer" },
+            { "text": "I show up and go with the flow.", "personality": "The Chiller" },
+            { "text": "I like a little plan but mostly want good vibes.", "personality": "The Social Butterfly" }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "What's your morning ritual on vacation?",
+          "options": [
+            { "text": "Up early, walking tour, and breakfast by 9.", "personality": "The Planner Pro" },
+            { "text": "Brunch around 11, maybe a museum.", "personality": "The Explorer" },
+            { "text": "Sleep in, slow start, coffee in bed.", "personality": "The Chiller" },
+            { "text": "Depends what the group's doing—I'm down for anything.", "personality": "The Social Butterfly" }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "What's your go-to role on a group trip?",
+          "options": [
+            { "text": "The Planner – I have Google Docs ready.", "personality": "The Planner Pro" },
+            { "text": "The Scout – I find the hidden gems.", "personality": "The Explorer" },
+            { "text": "The Chill One – I'm just happy to be here.", "personality": "The Chiller" },
+            { "text": "The Hype Friend – I make sure everyone's having fun.", "personality": "The Social Butterfly" }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "What's your dream destination vibe?",
+          "options": [
+            { "text": "Japan or Germany – culture and structure", "personality": "The Planner Pro" },
+            { "text": "Morocco or Bali – exploration and variety", "personality": "The Explorer" },
+            { "text": "Greece or Italy – beaches and indulgence", "personality": "The Chiller" },
+            { "text": "Mexico City or Lisbon – food, fun, and friends", "personality": "The Social Butterfly" }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "What's in your travel bag?",
+          "options": [
+            { "text": "Converter, backup charger, guidebook", "personality": "The Planner Pro" },
+            { "text": "Hiking shoes, GoPro, journal", "personality": "The Explorer" },
+            { "text": "Matching sets, moisturizer, playlist", "personality": "The Chiller" },
+            { "text": "Vibe detector, camera, snacks", "personality": "The Social Butterfly" }
+          ]
+        }
+      ]
+    },
+    "quiz2": {
+      "title": "Who's Your Travel Soulmate?",
+      "description": "Match members for roommate pairings, solo traveler invites, or couples trip compatibility",
+      "personalities": [
+        "The Wildcard",
+        "The Anchor",
+        "The Spark",
+        "The Connector"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "question": "You're picking your seat on the plane. You:",
+          "options": [
+            { "text": "Take the aisle. I need to move.", "personality": "The Anchor" },
+            { "text": "Window. I love looking out.", "personality": "The Spark" },
+            { "text": "I just want to sit next to someone fun.", "personality": "The Wildcard" },
+            { "text": "I ask what my friend wants and go with that.", "personality": "The Connector" }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "What do you bring to the trip vibe?",
+          "options": [
+            { "text": "Order and calm", "personality": "The Anchor" },
+            { "text": "Romance and magic", "personality": "The Spark" },
+            { "text": "Spontaneity and energy", "personality": "The Wildcard" },
+            { "text": "Deep convos and real talk", "personality": "The Connector" }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "How do you decompress?",
+          "options": [
+            { "text": "Alone time with headphones", "personality": "The Anchor" },
+            { "text": "Spa or scenic walk", "personality": "The Spark" },
+            { "text": "Music and movement", "personality": "The Wildcard" },
+            { "text": "Talking things through with someone close", "personality": "The Connector" }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "What kind of traveler turns you OFF?",
+          "options": [
+            { "text": "Controlling and rigid", "personality": "The Wildcard" },
+            { "text": "Always late and careless", "personality": "The Anchor" },
+            { "text": "Complains a lot", "personality": "The Spark" },
+            { "text": "Disengaged or uncommunicative", "personality": "The Connector" }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "What moment lights you up on a trip?",
+          "options": [
+            { "text": "Solving a challenge or saving the day", "personality": "The Anchor" },
+            { "text": "That perfect view or photo", "personality": "The Spark" },
+            { "text": "An unplanned wild night", "personality": "The Wildcard" },
+            { "text": "Laughing so hard your face hurts", "personality": "The Connector" }
+          ]
+        }
+      ]
+    },
+    "quiz3": {
+      "title": "Which Travel Group Is Your Vibe?",
+      "description": "Use to guide trip sign-ups or recommend trip categories in emails. Great for post-quiz upsells.",
+      "personalities": [
+        "The Adventure Collective",
+        "The Vibe Seekers",
+        "The Glow-Up Gang",
+        "The Culture Crew",
+        "The Real Ones"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "question": "You see a weekend trip to Morocco. What's your first thought?",
+          "options": [
+            { "text": "\"Yes! Let's go dune surfing.\"", "personality": "The Adventure Collective" },
+            { "text": "\"What's the vibe of the group?\"", "personality": "The Vibe Seekers" },
+            { "text": "\"Where's the riad? Is there a rooftop?\"", "personality": "The Glow-Up Gang" },
+            { "text": "\"What's the cultural etiquette? I want to go respectfully.\"", "personality": "The Culture Crew" }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Pick your dream group experience:",
+          "options": [
+            { "text": "ATV riding in the jungle", "personality": "The Adventure Collective" },
+            { "text": "Rooftop dinner in Mexico City", "personality": "The Vibe Seekers" },
+            { "text": "Wine tasting in Tuscany", "personality": "The Glow-Up Gang" },
+            { "text": "Exploring temples in Kyoto", "personality": "The Culture Crew" }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "What's your \"main character moment\" on a trip?",
+          "options": [
+            { "text": "Jumping off the boat into the ocean", "personality": "The Adventure Collective" },
+            { "text": "Leading the group into a hidden bar", "personality": "The Vibe Seekers" },
+            { "text": "Floating in a robe, holding a mimosa", "personality": "The Glow-Up Gang" },
+            { "text": "Sitting alone watching the sunset with a thought", "personality": "The Culture Crew" }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Your group vibe must include:",
+          "options": [
+            { "text": "Energy + activities", "personality": "The Adventure Collective" },
+            { "text": "Great convos + bonding", "personality": "The Vibe Seekers" },
+            { "text": "Chill time + indulgence", "personality": "The Glow-Up Gang" },
+            { "text": "Learning + culture", "personality": "The Culture Crew" }
+          ]
+        }
+      ]
+    }
   }
-  
+}
